@@ -1,0 +1,66 @@
+header {
+    font-family:'Lucida Grande';
+    color: purple;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+    vertical-align: top;
+}
+
+body {
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+}
+
+body { 
+    @media { max-width: 400px;
+    }
+}
+
+div {
+    font-family: 'Lucida Grande';
+	flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+	background-color: lavender;
+	text-transform: uppercase;
+    color: purple;
+	
+}
+.container {
+    display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+
+img {
+    justify-content: center;
+    padding: 10px;
+    float: auto;
+    max-width: 100%;
+}
+
+article {
+    float: auto;
+    line-height: 2em;
+}
+
+p {
+    text-transform: initial;
+}
+
+.links {
+font-family: 'Lucida Grande';
+margin: 20px;
+padding-top: 10px;
+color: purple;
+flex-wrap: wrap;
+}
+
+footer {
+    color: purple;
+    display: inline;
+    text-align: center;
+}
